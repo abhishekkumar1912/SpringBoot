@@ -5,7 +5,7 @@
 
 
 
-To prepare a jar which is executable, you need to setup manifest property in build.gradle to identify what is the main class to execute  
+To prepare a jar which is executable, you need to setup manifest property in `build.gradle` to identify what is the main class to execute  
 ```jar {
     manifest {
         attributes (
