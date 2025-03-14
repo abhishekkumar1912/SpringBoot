@@ -1,7 +1,14 @@
  # Setup of basic gradle using cli:  
-```gradle init --use-defaults --type java-application```  
+ 
+```
+gradle init --use-defaults --type java-application
+```  
+
 ### The above command will setup a basic gradle project  
-```./gradlew build```  
+
+```
+./gradlew build
+```  
 
 
 
@@ -16,11 +23,15 @@ To prepare a jar which is executable, you need to setup manifest property in `bu
 ```  
 ### The above command can build your project  
 
-```./gradlew jar```  
+```
+./gradlew jar
+```  
 
 ### The above command creates a new jar file in build/libs folder
 
-```java -jar build/libs/filename.jar```  
+```
+java -jar build/libs/filename.jar
+```  
 
 The above command will execute your code  
 
