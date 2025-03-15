@@ -11,6 +11,7 @@ repositories {
 }
 
 dependencies {
+    implementation("com.squareup.okhttp3:okhttp:4.12.0")
     implementation("com.squareup.retrofit2:retrofit:2.9.0")
     implementation("com.squareup.retrofit2:converter-gson:2.9.0") // For JSON conversion    implementation("com.squareup.okhttp3:okhttp:4.12.0")
     testImplementation(platform("org.junit:junit-bom:5.10.0"))
@@ -26,6 +27,7 @@ tasks.jar {
     manifest {
         attributes["Main-Class"] = "org.example.Main"  // Ensure the JAR is runnable
     }
+
 }
 
 tasks.test {
